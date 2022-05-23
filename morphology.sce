@@ -64,7 +64,7 @@ function result=count_actives(matrix)
     end;
 endfunction;
 
-img = imread("RT.bmp");
+img = imread("src/RT.bmp");
 img = double(img);
 img = max(img) - img;
 kernel_size = 3;
